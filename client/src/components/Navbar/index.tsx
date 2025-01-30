@@ -1,6 +1,5 @@
 import logo from '../../assets/logo.png';
-import { ChevronDownIcon, PlusIcon } from '@heroicons/react/16/solid';
-import { EllipsisVerticalIcon } from '@heroicons/react/16/solid';
+import { FaPlus, FaChevronDown, FaEllipsisVertical } from 'react-icons/fa6';
 const Navbar = () => {
 	return (
 		<div className='h-[64px] flex items-center justify-between space-x-3 bg-white'>
@@ -12,14 +11,14 @@ const Navbar = () => {
 				/>
 				<div className='flex items-center'>
 					<p className='font-bold'>Board Name</p>
-					<ChevronDownIcon className='size-5 text-[#635FC7]' />
+					<FaChevronDown className='size-3 text-primary font-bold ml-1' />
 				</div>
 			</div>
 			<div className='flex items-center'>
-				<button className='bg-[#A8A4FF] text-white rounded-full w-[48px] h-[32px] text-2xl font-bold flex items-center justify-center '>
-					<PlusIcon className='size-5' />
+				<button className='bg-primary text-white rounded-full w-[48px] h-[32px] text-2xl font-bold flex items-center justify-center '>
+					<FaPlus className='size-4' />
 				</button>
-				<EllipsisVerticalIcon className='size-6 mx-1 text-gray-500' />
+				<FaEllipsisVertical className='size-5 mx-1 text-gray-500' />
 			</div>
 		</div>
 	);
