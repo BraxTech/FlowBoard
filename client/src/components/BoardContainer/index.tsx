@@ -1,5 +1,4 @@
 import TaskColumn from '../TaskColumn';
-import TaskModal from '../TaskModal';
 
 const BoardContainer = () => {
 	return (
@@ -11,6 +10,10 @@ const BoardContainer = () => {
 				+ Add New Column
 			</button> */}
 			{/* <TaskModal /> */}
+			{/* <TaskEditorModal /> */}
+			{/* <BoardEditorModal /> */}
+			{/* <DeleteModal /> */}
+			{/* <BoardSwitcherModal /> */}
 			<TaskColumn />
 			<TaskColumn />
 		</div>
