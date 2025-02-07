@@ -6,7 +6,7 @@ interface ModalContainerProps {
 
 const ModalContainer = ({ children }: ModalContainerProps) => {
 	return (
-		<div className='fixed inset-0 bg-black/50 flex items-center justify-center z-1 '>
+		<div className='fixed inset-0 bg-black/50 flex items-center justify-center z-2 w-screen  '>
 			{children}
 		</div>
 	);
