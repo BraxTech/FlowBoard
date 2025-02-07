@@ -2,6 +2,19 @@
 @theme {
 	--color-primary: #635fc7;
 	--color-primary-hover: #a8a4ff;
-	--color-seondary: #f4f7fd;
+	--color-secondary: #f4f7fd;
 	--color-secondary-hover: #d8d7f1;
+	--color-destructive: #ea5555;
+	--color-destructive-hover: #ff9898;
+}
+
+html,
+body,
+#root {
+	height: 100%;
+	min-height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f7fd;
 }
